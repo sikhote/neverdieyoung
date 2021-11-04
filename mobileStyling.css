@@ -1,0 +1,184 @@
+@media only screen and (max-width: 975px) {
+  html {
+    min-width: 400px;
+  }
+  .navlink {
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .logo-image {
+    padding-top: 5px;
+    width: 60px;
+  }
+  .cover-logo {
+    max-width: 375px;
+  }
+  .left-links {
+    left: calc(50% - 165px);
+    flex-direction: column;
+  }
+
+  .right-links {
+    right: calc(50% - 205px);
+    flex-direction: column;
+  }
+  .content {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    max-width: 401px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tile {
+    flex-direction: column;
+    position: relative;
+    width: 350px;
+    min-width: 1px;
+    padding: 5px;
+  }
+
+  .img-tile {
+    width: 100%;
+    z-index: 0;
+    height: 300px;
+  }
+
+  .text-tile {
+    background-image: radial-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5));
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    height: 75%;
+    z-index: 10;
+    min-height: 0;
+    justify-content: center;
+    margin-left: 0px;
+    border-top: 1px solid rgba(224, 146, 0, 1);
+    border-bottom: 1px solid rgba(224, 146, 0, 1);
+    border-left: 1px solid rgba(255, 191, 96, 1);
+    border-right: 1px solid rgba(255, 191, 96, 1);
+  }
+  .text-tile-text-emp {
+    font-size: 20px;
+    text-shadow: 2px 2px 10px #000000;
+    color: rgb(195 169 141);
+  }
+  .text-tile-text-minor {
+    font-size: 18px;
+    text-shadow: 2px 2px 10px #000000;
+  }
+
+  .bio-name {
+    font-size: 25px;
+  }
+
+  .form-text {
+    font-family: Crushed, serif;
+  }
+
+  .bio-tile {
+    min-height: 600px;
+  }
+  .bio-text-tile {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+  }
+
+  .form-contact {
+    max-width: 350px;
+    display: block;
+    flex-direction: none;
+    justify-content: none;
+  }
+  .testing {
+    max-width: 350px;
+    padding: 0px 0px 10px 0px;
+  }
+  .testimonial-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .testimonial-tile {
+    min-width: 350px;
+    max-width: 350px;
+  }
+
+  .testimonial-text {
+    font-size: 16px;
+    max-width: 300px;
+  }
+
+  #video-text-tile {
+    margin-left: 0;
+    position: relative;
+    top: 0%;
+    bottom: 0%;
+  }
+
+  #video-container {
+    height: 225px;
+    width: 350px;
+  }
+  .dropDown-btn {
+    display: block;
+  }
+  .logo-image {
+    display: block;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+  }
+
+  .dropdown-content {
+    display: block;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.85);
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: 15px;
+    border: 2px solid rgba(122, 110, 100, 0.65);
+  }
+
+  .dropdown-content a:hover {
+    color: #e09200;
+    border-top: 2px solid rgb(94, 54, 22);
+    border-bottom: 2px solid rgb(94, 54, 22);
+  }
+
+  .link-container {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #longDisplay {
+    display: none;
+  }
+
+  .scroll-img {
+    margin: 5px 0px 0px 0px;
+    height: 20px;
+  }
+  .frontpage-ticket-link {
+    width: 350px;
+  }
+
+  html {
+    background-image: none;
+  }
+}
